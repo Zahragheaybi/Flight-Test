@@ -9,6 +9,7 @@ const App = () => {
       <Route path="/flight" element={<Search />} exact />
       <Route path="/flight/:from/:to/:date" element={<Flight />} exact />
     </Routes >
+   
   );
 }
 export default App;
